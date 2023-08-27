@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url("https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+  }
+
+  .header {
+    text-align: center;
+    background-color: #112f4f;
+    color: #f5f0f0;
+    padding: 10px 0;
+    font-size: 30px;
+  }
+  
+  .container1 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    font-style: italic;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .container2 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    font-style: italic;
+  }
+
+  .section {
+    margin-bottom: 20px;
+    padding-left: 40px;
+    position: relative;
+  }
+
+  h2 {
+    color: #333;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 20px;
+    display: none;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  .connector {
+    position: absolute;
+    width: 2px;
+    background-color: #074a91;
+    top: 0;
+    bottom: 0;
+    left: 30px;
+  }
+</style>
+<title>Choose your choice</title>
+</head>
+<body>
+  <div class="header">INTELLECTUAL INFLUENCE
+    
+  </div>
+  <div class="container1">
+    <p>"Empower yourself through the written word. 
+        Start your journey to personal growth today."</p>
+  </div>
+  <div class="container">
+    <div class="section">
+      <h2 onclick="toggleList(this)">The Alchemist</h2>
+      <ul id="1">
+        <li>"The Alchemist" by Paulo Coelho follows Santiago,
+             a shepherd who journeys from Spain to Egypt in pursuit
+              of his "Personal Legend," or true purpose. Along the
+               way, he encounters mentors and mystical experiences 
+               that teach him the importance of following one's dreams. 
+               Santiago discovers that the treasure he seeks,
+                a literal and metaphorical "Alchemist's Stone," 
+                is not a physical object but an understanding of 
+                the interconnectedness of the universe and the 
+                fulfillment of his own potential. This 
+                philosophical novel inspires readers to pursue 
+            their own dreams and listen to their hearts.</li>
+     </ul>
+      <div class="connector"></div>
+    </div>
+    
+    <div class="section">
+      <h2 onclick="toggleList(this)">Atomic Habits</h2>
+      <ul id="2">
+      <li>"Atomic Habits" by James Clear is a transformative guide to personal development. 
+        It emphasizes the profound impact of small, consistent habits in achieving success. 
+        Clear offers practical strategies for habit formation and breaking, focusing on the
+        4-step "Cue, Craving, Response, and Reward" loop. By understanding and manipulating
+         these elements, readers can create positive, lasting changes in their lives.
+          The book empowers individuals to take control of their habits and build a 
+          path towards continuous self-improvement.</li>
+      </ul>
+      <div class="connector"></div>
+    </div>
+    <div class="section">
+        <h2 onclick="toggleList(this)">Start with Why</h2>
+        <ul id="3">
+        <li>"Start with Why" by Simon Sinek explores the concept of inspiring leadership
+             and organizational success by starting with a clear sense of 'why.' Sinek 
+             argues that successful leaders and companies communicate their purpose and 
+             values before discussing 'how' or 'what' they do. By doing so, they inspire 
+             loyalty and engagement. Through real-world examples, he demonstrates the power
+              of 'why' in motivating teams and driving innovation, making a compelling 
+              case for a purpose-driven approach to leadership and business.</li>
+        </ul>
+        <div class="connector"></div>
+      </div>
+      <div class="section">
+        <h2 onclick="toggleList(this)">Ikigai</h2>
+        <ul id="4">
+        <li>"Ikigai: The Japanese Secret to a Long and Happy Life" by Héctor García
+             and Francesc Miralles explores the Japanese concept of 'ikigai,' 
+             which means 'a reason for being.' The book combines the wisdom of 
+             finding purpose with living a fulfilling life by aligning what you 
+             love, what you're good at, what the world needs, and what you can be
+              paid for. It emphasizes finding joy in everyday activities and 
+              achieving longevity by nurturing a sense of purpose.</li>
+        </ul>
+        <div class="connector"></div>
+      </div>
+      <div class="section">
+        <h2 onclick="toggleList(this)">Rich Dad Poor Dad</h2>
+        <ul id="5">
+        <li>"Rich Dad Poor Dad" by Robert Kiyosaki contrasts the financial 
+            philosophies of his 'rich dad' (a successful entrepreneur) and
+             'poor dad' (a traditional, risk-averse employee). Kiyosaki shares
+              insights on the importance of financial education, asset building,
+               and entrepreneurship to achieve financial independence. He advocates 
+               for investing wisely, taking calculated risks, and challenging 
+               conventional notions about money. The book emphasizes the value 
+               of financial literacy and the pursuit of wealth through strategic 
+               thinking and financial intelligence.</li>
+        </ul>
+        <div class="connector"></div>
+      </div>
+
+      <div class="section">
+        <h2 onclick="toggleList(this)">The Obstacle is the Way</h2>
+        <ul id="6">
+        <li>"The Obstacle Is the Way" by Ryan Holiday draws on ancient Stoic
+             philosophy to offer a modern guide to overcoming adversity. Holiday 
+             argues that obstacles are opportunities for growth and resilience. 
+             By adopting a mindset of persistence and applying Stoic principles
+              like perception, action, and willpower, individuals can turn obstacles
+               into advantages. The book provides examples from history and practical 
+               advice on how to face challenges, adapt, and thrive in the face of adversity.</li>
+        </ul>
+
+        <div class="connector"></div>
+      </div>
+      <div class="section">
+        <h2 onclick="toggleList(this)">Awaken The Giant Within You</h2>
+        <ul id="7">
+        <li>"Awaken the Giant Within" by Tony Robbins is a self-help classic 
+            that empowers readers to take control of their lives. Robbins provides 
+            strategies for personal development, including goal setting,
+             time management, and emotional mastery. He emphasizes the power of 
+             beliefs and values in shaping one's destiny. The book offers actionable
+              techniques to unleash one's inner potential and create lasting 
+              positive change. It's a roadmap for achieving personal and professional 
+              success by harnessing the power within oneself.</li>
+        </ul>
+        <div class="connector"></div>
+      </div>
+      <div class="section">
+        <h2 onclick="toggleList(this)">Grit</h2>
+        <ul id="8">
+        <li>"Grit" by Angela Duckworth explores the crucial role of passion and 
+            perseverance in achieving success. Duckworth argues that talent alone 
+            isn't enough; it's the combination of effort and determination, which 
+            she calls 'grit,' that truly matters. Through extensive research and 
+            real-life stories, she illustrates how grit can be developed and cultivated. 
+            The book inspires readers to embrace challenges, stay committed to their
+             long-term goals, and persist through setbacks, ultimately leading to greater accomplishments.</li>
+        </ul>
+        <div class="connector"></div>
+      </div>
+      <div class="section">
+        <h2 onclick="toggleList(this)">Drive</h2>
+        <ul id="9">
+        <li>In "Drive" by Daniel H. Pink, the traditional carrot-and-stick approach to 
+            motivation is challenged. Pink argues that people are primarily driven by autonomy, 
+            mastery, and purpose in their work. He delves into the psychology behind these intrinsic
+             motivators, revealing how they lead to higher levels of engagement and innovation. 
+             The book offers insights for businesses and individuals to foster more fulfilling, 
+             self-directed, and successful lives by tapping into these innate sources of motivation.</li>
+        </ul>
+        <div class="connector"></div>
+      </div>
+      <div class="section">
+        <h2 onclick="toggleList(this)">Make Your Bed</h2>
+        <ul id="10">
+        <li>"Make Your Bed: Little Things That Can Change Your Life...And Maybe the World"
+             by Admiral William H. McRaven is a concise guide based on the author's Navy SEAL
+              training. McRaven emphasizes the significance of small daily habits, such as
+               making your bed, in building discipline and resilience. These habits can lead
+                to personal success and positive change in the world. The book offers 
+                straightforward advice on achieving goals and handling adversity, using 
+                the metaphor of bed-making to convey valuable life lessons.</li>
+        </ul>
+        <div class="connector"></div>
+      </div>
+      <div class="section">
+        <h2 onclick="toggleList(this)">The Four Agreements
+        </h2>
+        <ul id="11">
+        <li>"The Four Agreements" by Don Miguel Ruiz outlines ancient Toltec wisdom as 
+            a guide to personal freedom and fulfillment. Ruiz presents four powerful 
+            agreements: Be impeccable with your word, Don't take anything personally, Don't
+             make assumptions, and Always do your best. These agreements help readers break
+              free from self-limiting beliefs and create a life of love, authenticity, and joy. 
+              The book emphasizes the transformative impact of living in accordance with these principles.</li>
+        </ul>
+        <div class="connector"></div>
+      </div>
+      <div class="section">
+        <h2 onclick="toggleList(this)"></h2>
+        <ul id="12">
+        <li>"The Power of Now" by Eckhart Tolle is a spiritual guide to living in the 
+            present moment. Tolle argues that the mind's constant chatter and identification 
+            with the past and future create suffering. By cultivating awareness of the
+             present moment, readers can free themselves from mental turmoil and discover
+              inner peace. The book offers practical exercises and teachings to help
+              individuals transcend ego-driven thinking and experience a state of 
+              profound presence and enlightenment.</li>
+        </ul>
+        <div class="connector"></div>
+      </div>
+      <div class="section">
+        <h2 onclick="toggleList(this)">Daring Greatly</h2>
+        <ul id="13">
+        <li>"Daring Greatly" by Brené Brown explores vulnerability as a pathway to
+             courage and personal growth. Brown argues that embracing vulnerability 
+             allows individuals to live more authentically and wholeheartedly.
+              She encourages readers to take risks, show up with their imperfections, 
+              and cultivate resilience. Through research and personal anecdotes, 
+              Brown illustrates how vulnerability fosters deeper connections, 
+              creativity, and fulfillment. The book empowers individuals to step 
+              into the arena of life, face uncertainty, and dare greatly.</li>
+        </ul>
+        <div class="connector"></div>
+      </div>
+      <div class="section">
+        <h2 onclick="toggleList(this)">The Art Of War</h2>
+        <ul id="14">
+        <li>"The Art of War" by Sun Tzu is a timeless classic on strategy and 
+            warfare. It offers profound insights applicable beyond the battlefield.
+            Sun Tzu's principles emphasize adaptability, deception, and the importance 
+            of understanding both oneself and the enemy. The book teaches readers
+             how to approach conflicts with wisdom and cunning, promoting victory 
+             without excessive force. It remains a valuable guide to strategic thinking,
+              leadership, and problem-solving in various aspects of life.</li>
+        </ul>
+        <div class="connector"></div>
+      </div>
+      <div class="section">
+        <h2 onclick="toggleList(this)">7 Habits Of Highly Effective People</h2>
+        <ul id="15">
+        <li>"The 7 Habits of Highly Effective People" by Stephen R. Covey is 
+            a self-help classic that offers a holistic approach to personal and 
+            professional effectiveness. Covey outlines seven habits that lead to 
+            success, emphasizing principles such as proactivity, prioritization,
+             and synergy. He encourages readers to shift from a focus on external 
+             circumstances to internal character development. By adopting these habits,
+              individuals can become more proactive, influential, and fulfilled in all areas of life.</li>
+        </ul>
+        <div class="connector"></div>
+      </div>
+      <div class="section">
+        <h2 onclick="toggleList(this)"></h2>
+        <ul id="">
+        <li></li>
+        </ul>
+        <div class="connector"></div>
+      </div>
+    
+  </div>
+ <div class="container2">
+    <p>"Thank you for exploring our website! By immersing yourself in
+         these empowering books, you've tapped into the transformative 
+         power of literature. Remember, reading is the key to personal 
+         growth and empowerment. There's always more to discover on your 
+         path to becoming the best version of yourself. Keep reading, 
+         keep growing!"</p>
+ </div>
+
+  <script>
+    function toggleList(element) {
+      const list = element.nextElementSibling;
+      list.style.display = list.style.display === 'none' ? 'block' : 'none';
+    }
+  </script>
+
+</body>
+</html>
